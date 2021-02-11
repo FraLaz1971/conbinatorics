@@ -1,0 +1,6 @@
+conbinatorics math examples
+dispositions
+factorial
+
+./sifapp < vals.asc > sifapp_out.log  2>sifapp_err.log
+

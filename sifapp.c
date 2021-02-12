@@ -6,6 +6,7 @@
 #define EX_ARGSLIMITS  86       /* an argument is out of allowed limits */
 #define DEBUG 1
 
+
 int main(int argc, char **argv){
         #if defined DEBUG && DEBUG == 1
         fprintf(stderr, "%s: returns factorial n*(n-1)* ... *1\n", argv[0]);
@@ -37,7 +38,8 @@ int main(int argc, char **argv){
                 #endif
                 printf("%u ", oval);
             }
-        } while (res != -1) ; 
+        } while (res != -1) ;
+	    PAUSE(argv[0]);
         return EXIT_SUCCESS;
 }
 
